@@ -1,0 +1,59 @@
+/* ## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+* {
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    padding: 30px 80px 10px 80px;
+}
+
+.intro {
+    padding: 0px 40px 10px 40px;
+}
+.buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.star-box {
+    background-color: hsl(300, 24%, 96%);
+    padding: 30px;
+    margin: 10px;
+    color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.testimonial {
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Media Queries */
+/* 
+- Mobile: 375px
+- Desktop: 1440px */
